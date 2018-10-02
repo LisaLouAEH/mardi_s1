@@ -4,23 +4,67 @@
     flex-wrap: nowrap;
     color: black;
 }
+
 button{
-    padding: 5px;
+    padding: 7px;
     margin: 3px;
     background-color: white;
     border-style: none;
 }
 #conec{
     background-color: blue;
+    border-radius: 5px;
     color: white;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold', sans-serif Helvetica, sans-serif;
 }
+
 #center{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    flex-direction: column; 
+    margin: 25px;
+    padding: 6% 0%;
+    margin-block-end: 10%;
+/**/
 }
-.goo{
-    margin: 40px;
+form.input{
+    border: groove black;
+}
+p{
+    margin: 50px 0px 0px 0px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-style: bold;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 4px;
+    margin: 1px;
     
+}
+.block button{
+    background-color: #f2f2f2;
+}
+.block.div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #3D3D3D;
+    font-size: 12px;
+    margin: 10px;
+}
+a:hover{
+    text-decoration: underline;
 }
