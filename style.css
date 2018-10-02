@@ -1,0 +1,26 @@
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    color: black;
+}
+button{
+    padding: 5px;
+    margin: 3px;
+    background-color: white;
+    border-style: none;
+}
+#conec{
+    background-color: blue;
+    color: white;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.goo{
+    margin: 40px;
+    
+}
